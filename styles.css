@@ -6,6 +6,28 @@ body {
     flex-direction: column;
 }
 
+.header, .content, .footer {
+    padding: 0px 300px;
+}
+
+.header {
+    font: Roboto;
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-wrap: nowrap;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 .product {
     height: 300px;
     width: 600px;
@@ -14,4 +36,18 @@ body {
 .info img {
     height: 200px;
     width: 200px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+    font-weight: lighter;
 }
