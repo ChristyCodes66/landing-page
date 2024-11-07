@@ -6,19 +6,24 @@ body {
     flex-direction: column;
 }
 
-.header, .content, .footer {
-    padding: 0px 300px;
+.header, #first, .footer {
+    background-color: #1F2937;
+}
+
+.header a, .intro p, button {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .header {
     font: Roboto;
-    font-size: 18px;
-    color: #E5E7EB;
     background-color: #1F2937;
     margin: 0;
+    padding: 0px 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 48px;
     text-wrap: nowrap;
 }
 
@@ -29,8 +34,33 @@ body {
 }
 
 .product {
-    height: 300px;
-    width: 600px;
+    height: 295px;
+    width: 442px;
+    flex-grow: 0;
+}
+
+.tier {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#first {
+    padding: 100px 300px;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 48px;
+}
+
+.intro {
+    width: 350px;
+    flex-shrink: 0;
+}
+
+.intro h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .info img {
@@ -48,6 +78,14 @@ ul {
 
 a {
     text-decoration: none;
-    color: #F9FAF8;
     font-weight: lighter;
+}
+
+button {
+    width: 132px;
+    background-color: #3885f6;
+    border-style: none;
+    border-radius: 8px;
+    padding: 8px;
+    flex-wrap: nowrap;
 }
