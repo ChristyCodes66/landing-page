@@ -6,3 +6,12 @@ body {
     flex-direction: column;
 }
 
+.product {
+    height: 300px;
+    width: 600px;
+}
+
+.info img {
+    height: 200px;
+    width: 200px;
+}
