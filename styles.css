@@ -12,7 +12,7 @@ body {
 
 .header a, .intro p, button {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #F9FAF8;
 }
 
 .header {
@@ -72,17 +72,84 @@ body {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    margin: 1em;
 }
 
 .illustrations {
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.info {
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+    text-align: center;
 }
 
 .info img {
     height: 200px;
     width: 200px;
+    border: 4px solid #3885f6;
+    border-radius: 8px;
+}
+
+#third {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 150px 300px;
+}
+
+#third blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-wrap: wrap;
+}
+
+#third p {
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+}
+
+#fourth {
+    margin: 75px 150px;
+    padding: 48px 96px;
+    background-color: #3885f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    color: #F9FAF8;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0px 0px 8px;
+}
+
+.text {
+    margin: 0;
+    padding: 0;
+}
+
+.right button {
+    border: 2px solid #F9FAF8;
 }
 
 ul {
